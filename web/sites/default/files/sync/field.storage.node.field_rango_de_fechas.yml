@@ -1,0 +1,20 @@
+uuid: 065f5093-20f0-45f5-890a-95e984fa117d
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - node
+id: node.field_rango_de_fechas
+field_name: field_rango_de_fechas
+entity_type: node
+type: daterange
+settings:
+  datetime_type: datetime
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
