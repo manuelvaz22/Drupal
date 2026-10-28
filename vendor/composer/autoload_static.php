@@ -599,6 +599,7 @@ class ComposerStaticInit9da5b648ef8f9502ce0e25c3d2e5ae9d
         'System' => __DIR__ . '/..' . '/pear/pear-core-minimal/src/System.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+        'geoPHP' => __DIR__ . '/..' . '/itamair/geophp/geoPHP.inc',
     );
 
     public static function getInitializer(ClassLoader $loader)
