@@ -1,0 +1,88 @@
+uuid: 5cd527a5-2d87-4a40-ab9d-c586e887b37f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.post_blog.field_body
+    - field.field.node.post_blog.field_categoria_post
+    - field.field.node.post_blog.field_fecha_publicacion
+    - field.field.node.post_blog.field_file
+    - field.field.node.post_blog.field_rango_de_fechas
+    - field.field.node.post_blog.field_telefono
+    - field.field.node.post_blog.field_yoast_seo
+    - node.type.post_blog
+  module:
+    - datetime
+    - datetime_range
+    - file
+    - text
+    - user
+    - yoast_seo
+id: node.post_blog.default
+targetEntityType: node
+bundle: post_blog
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_categoria_post:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_fecha_publicacion:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_file:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_rango_de_fechas:
+    type: daterange_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+      from_to: both
+      separator: '-'
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_telefono:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_yoast_seo:
+    type: yoastseo_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

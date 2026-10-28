@@ -1,0 +1,21 @@
+uuid: 78558532-c738-4651-8b87-930b36b20549
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_telefono
+    - node.type.post_blog
+  module:
+    - telephone
+id: node.post_blog.field_telefono
+field_name: field_telefono
+entity_type: node
+bundle: post_blog
+label: Teléfono
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

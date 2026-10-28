@@ -1,0 +1,18 @@
+uuid: da40b0d9-bfae-4fb2-9204-7f90817e9e85
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Página Básica'
+type: page
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,21 @@
+uuid: a1261584-1925-4497-a1ee-71b11f83fd70
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha_publicacion
+    - node.type.recursos_didacticos
+  module:
+    - datetime
+id: node.recursos_didacticos.field_fecha_publicacion
+field_name: field_fecha_publicacion
+entity_type: node
+bundle: recursos_didacticos
+label: 'Fecha de publicación'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

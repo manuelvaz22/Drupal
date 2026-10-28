@@ -1,0 +1,28 @@
+uuid: cc20752c-0abc-4804-a8d1-0452aac179e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.article.field_body
+    - node.type.article
+  module:
+    - text
+    - user
+id: node.article.default
+targetEntityType: node
+bundle: article
+mode: default
+content:
+  field_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
