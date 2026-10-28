@@ -1,0 +1,21 @@
+uuid: 003c5af3-2abd-45c1-9a56-5633e8c7911a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_geolocalizacion
+    - node.type.oficina
+  module:
+    - geofield
+id: node.oficina.field_geolocalizacion
+field_name: field_geolocalizacion
+entity_type: node
+bundle: oficina
+label: Geolocalización
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geofield

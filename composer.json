@@ -28,6 +28,7 @@
         "drupal/pathauto": "^1.15",
         "drupal/seckit": "^2.0",
         "drupal/seo_checklist": "^5.2",
+        "drupal/taxonomy_manager": "^2.0",
         "drupal/user_redirect": "^2.0",
         "drupal/webform": "^6.3",
         "drupal/yoast_seo": "^2.2",

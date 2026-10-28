@@ -1,0 +1,29 @@
+uuid: aa4ce8e3-470d-4d4f-bff6-2073fa807dad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_provincia
+    - node.type.oficina
+    - taxonomy.vocabulary.provincias
+id: node.oficina.field_provincia
+field_name: field_provincia
+entity_type: node
+bundle: oficina
+label: Provincia
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:filter_existing_terms'
+  handler_settings:
+    target_bundles:
+      provincias: provincias
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

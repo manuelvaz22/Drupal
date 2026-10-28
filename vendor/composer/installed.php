@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '574a7da2d3c28c4946423fa4b9804b93038983ef',
+        'reference' => '38afd5c4ffae79aac6ed3bdb1ac4b75aae6bb2c2',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -370,6 +370,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/jquery_ui' => array(
+            'pretty_version' => '1.8.0',
+            'version' => '1.8.0.0',
+            'reference' => '8.x-1.8',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/jquery_ui',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/login_security' => array(
             'pretty_version' => '2.0.7',
             'version' => '2.0.7.0',
@@ -400,7 +409,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '574a7da2d3c28c4946423fa4b9804b93038983ef',
+            'reference' => '38afd5c4ffae79aac6ed3bdb1ac4b75aae6bb2c2',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -441,6 +450,15 @@
             'replaced' => array(
                 0 => '*',
             ),
+        ),
+        'drupal/taxonomy_manager' => array(
+            'pretty_version' => '2.0.23',
+            'version' => '2.0.23.0',
+            'reference' => '2.0.23',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/taxonomy_manager',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drupal/token' => array(
             'pretty_version' => '1.17.0',
