@@ -1,0 +1,18 @@
+uuid: 63b37a1d-b94b-43cf-808a-8fb9dd6e3cdb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Oficina
+type: oficina
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true
