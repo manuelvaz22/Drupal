@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d75185ac4f3e01044b3f13dd983f356f",
+    "content-hash": "f3a036f451155009ba4523dd31e83e00",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1865,6 +1865,93 @@
             }
         },
         {
+            "name": "drupal/login_destination",
+            "version": "2.0.0-beta10",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/login_destination.git",
+                "reference": "8.x-2.0-beta10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/login_destination-8.x-2.0-beta10.zip",
+                "reference": "8.x-2.0-beta10",
+                "shasum": "28df74517a97259e069aaadf05652b72f222e85f"
+            },
+            "require": {
+                "drupal/core": "^8.7.10 || ^9 || ^10 || ^11"
+            },
+            "require-dev": {
+                "drupal/admin_toolbar": "^1.23",
+                "drupal/admin_toolbar_tools": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.0-beta10",
+                    "datestamp": "1756735210",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "rsvelko",
+                    "homepage": "https://www.drupal.org/u/rsvelko",
+                    "role": "Creator, Maintainer"
+                },
+                {
+                    "name": "Other Contributors",
+                    "homepage": "https://www.drupal.org/node/69051/committers",
+                    "role": "Contributors"
+                },
+                {
+                    "name": "ddrozdik",
+                    "homepage": "https://www.drupal.org/user/574124"
+                },
+                {
+                    "name": "jng12",
+                    "homepage": "https://www.drupal.org/user/204316"
+                },
+                {
+                    "name": "marcp",
+                    "homepage": "https://www.drupal.org/user/20885"
+                },
+                {
+                    "name": "mithy",
+                    "homepage": "https://www.drupal.org/user/258911"
+                },
+                {
+                    "name": "moshe weitzman",
+                    "homepage": "https://www.drupal.org/user/23"
+                },
+                {
+                    "name": "oliver huynh",
+                    "homepage": "https://www.drupal.org/user/243730"
+                },
+                {
+                    "name": "perennial.sky",
+                    "homepage": "https://www.drupal.org/user/2622667"
+                },
+                {
+                    "name": "rsvelko",
+                    "homepage": "https://www.drupal.org/user/337401"
+                }
+            ],
+            "description": "Customizes the destination the user is redirected to after login/logout/registration/one-time login.",
+            "homepage": "https://drupal.org/project/login_destination",
+            "support": {
+                "source": "https://git.drupalcode.org/project/login_destination",
+                "issues": "https://drupal.org/project/issues/login_destination"
+            }
+        },
+        {
             "name": "drupal/login_security",
             "version": "2.0.7",
             "source": {
@@ -1939,22 +2026,21 @@
         },
         {
             "name": "drupal/metatag",
-            "version": "2.2.1",
+            "version": "2.2.4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/metatag.git",
-                "reference": "2.2.1"
+                "reference": "2.2.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/metatag-2.2.1.zip",
-                "reference": "2.2.1",
-                "shasum": "ee75572be28017b7b5a9c4ecf7b643e6ce806e16"
+                "url": "https://ftp.drupal.org/files/projects/metatag-2.2.4.zip",
+                "reference": "2.2.4",
+                "shasum": "08ca0e9c22acf47cb8312220c12c8229f43c304d"
             },
             "require": {
                 "drupal/core": "^10.3 || ^11",
-                "drupal/token": "^1.0",
-                "php": ">=8.0"
+                "drupal/token": "^1.17"
             },
             "require-dev": {
                 "drupal/diff": "*",
@@ -1971,8 +2057,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.2.1",
-                    "datestamp": "1792864792",
+                    "version": "2.2.4",
+                    "datestamp": "1793239109",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8043,7 +8129,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "drupal/login_destination": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {},

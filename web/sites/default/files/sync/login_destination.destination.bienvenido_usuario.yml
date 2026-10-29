@@ -1,0 +1,16 @@
+uuid: fa4e026d-3658-4068-918b-95fc0fd5e3db
+langcode: en
+status: true
+dependencies: {  }
+name: bienvenido_usuario
+label: 'Bienvenido Usuario'
+triggers:
+  login: login
+destination_path: 'entity:node/11'
+pages_type: 0
+pages: ''
+language: ''
+roles:
+  authenticated: authenticated
+weight: 0
+enabled: true
