@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'bf59f36257dd48dcc890073c293048c7d917da6e',
+        'reference' => 'b0fcbfaa72545476857e084a9640f02663c2f356',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -379,6 +379,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/login_destination' => array(
+            'pretty_version' => '2.0.0-beta10',
+            'version' => '2.0.0.0-beta10',
+            'reference' => '8.x-2.0-beta10',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/login_destination',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/login_security' => array(
             'pretty_version' => '2.0.7',
             'version' => '2.0.7.0',
@@ -409,7 +418,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'bf59f36257dd48dcc890073c293048c7d917da6e',
+            'reference' => 'b0fcbfaa72545476857e084a9640f02663c2f356',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
